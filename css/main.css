@@ -1,5 +1,5 @@
 html {
-	
+	padding:0;
 }
 
 .wrapper {
@@ -7,8 +7,7 @@ html {
 }
 
 body {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin:0;
 	background-color: black;
 }
 
@@ -18,19 +17,23 @@ footer {
 
 ul {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 	background-color: white;
+	width:100%;
+	display:inline-block;
+	height:70px;
 }
 
 li {
 	color:black;
-	display:inline;
+	display:inline-block;
 	float:right;
-	padding-left: 2%;
 	position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+	text-align: center;
+	
 }
 
 #registration {
