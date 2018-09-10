@@ -51,7 +51,7 @@ footer {
 li {
 	color:black;
 	display:inline-flex;
-	text-align: center;
+	text-align:center;
 }
 
 li a {
@@ -59,7 +59,7 @@ li a {
 	text-decoration: none;
 	position:relative;
 	text-align: center;
-	padding:20px;
+	padding:26px;
 }
 
 li a:hover {
