@@ -30,7 +30,6 @@ footer {
 
 .nav {
 	position: sticky;
-	position: -webkit-sticky; /* Safari */
     left: 0px;
     height: 70px;
     background-color: black;
@@ -41,12 +40,11 @@ footer {
 
 
 .nav ul {
+	position: sticky;
 	list-style-type: none;
     margin: 0px;
     padding: 0px;
 	width:100%;
-	display:inline-block;
-	float:right;
 	font-family: 'Montserrat', sans-serif;
 }
 
