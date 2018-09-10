@@ -19,11 +19,12 @@ body {
 }
 
 footer { 
+	position: fixed;
 	background-color: black;
 	color:white;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding:20px;
+	padding:30px;
 }
 
 .nav {
@@ -38,7 +39,7 @@ footer {
 
 
 .nav ul {
-	position: ;
+	position:fixed;
 	list-style-type: none;
     margin: 0px;
     padding: 0px;
