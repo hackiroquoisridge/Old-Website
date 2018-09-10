@@ -48,7 +48,8 @@ footer {
 
 .nav ul {
 	margin:0;
-	margin-right:30px;
+	padding-right:30px;
+	box-shadow: 0 0 10px 2px black
 }
 
 li {
@@ -60,8 +61,8 @@ li {
 li a {
 	color:white;
 	text-decoration: none;
-	padding-top:26px;
-	padding-bottom:26px;
+	padding-top:25px;
+	padding-bottom:25px;
 	padding-right:18px;
 	padding-left:18px;
 	float:right;
