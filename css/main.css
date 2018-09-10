@@ -20,6 +20,10 @@ body {
 
 footer { 
 	background-color: black;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding:20px;
 }
 
 .nav {
@@ -54,6 +58,7 @@ li {
 li a {
 	color:white;
 	text-decoration: none;
+	position:relative;
 	text-align: center;
 	padding:20px;
 }
@@ -114,4 +119,8 @@ li a:hover {
 .registration {
 	padding:50px;
 	text-align: center;
+}
+
+h1 {
+
 }
