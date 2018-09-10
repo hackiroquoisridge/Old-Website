@@ -2,8 +2,15 @@ html {
 	padding:0;
 }
 
+head {
+	width:100%;
+}
+
 .wrapper {
-	
+	margin-top:0;
+	margin-left: 2%;
+	margin-right:2%;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -31,8 +38,10 @@ footer {
 	list-style-type: none;
     margin: 0px;
     padding: 0px;
+	width:100%;
 	display:inline-block;
 	float:right;
+	font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -45,6 +54,8 @@ li {
 li a {
 	color:white;
 	text-decoration: none;
+	text-align: center;
+	padding:20px;
 }
 
 li a:hover {
@@ -99,3 +110,8 @@ li a:hover {
 	color:white;
 }
 
+
+.registration {
+	padding:50px;
+	text-align: center;
+}
