@@ -8,32 +8,47 @@ html {
 
 body {
 	margin:0;
-	background-color: black;
+	background-color: white;
 }
 
 footer { 
 	
 }
 
-ul {
+.nav {
+	position: sticky;
+	position: -webkit-sticky; /* Safari */
+    left: 0px;
+    height: 70px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+	
+}
+
+
+.nav ul {
 	list-style-type: none;
     margin: 0px;
     padding: 0px;
-	background-color: white;
-	width:100%;
 	display:inline-block;
-	height:70px;
+	float:right;
 }
 
 li {
 	color:black;
 	display:inline-block;
-	float:right;
-	position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
 	text-align: center;
 	
+}
+
+li a {
+	color:white;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
 }
 
 #registration {
@@ -84,11 +99,3 @@ li {
 	color:white;
 }
 
-li a {
-	color:white;
-	text-decoration: none;
-}
-
-li a:hover {
-	text-decoration: underline;
-}
