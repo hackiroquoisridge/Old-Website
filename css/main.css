@@ -28,7 +28,7 @@ footer {
 }
 
 .nav {
-	position: sticky;
+	position:fixed;
     left: 0px;
     height: 70px;
     background-color: black;
@@ -39,7 +39,6 @@ footer {
 
 
 .nav ul {
-	position:fixed;
 	list-style-type: none;
     margin: 0px;
     padding: 0px;
