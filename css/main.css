@@ -52,8 +52,8 @@ footer {
 
 li {
 	color:black;
-	display:inline-block;
-	
+	display:inline-flex;
+	text-align: center;
 }
 
 li a {
@@ -114,6 +114,7 @@ li a:hover {
 
 .active {
 	color:white;
+	text-decoration: underline;
 }
 
 
@@ -127,5 +128,13 @@ h1 {
 
 }
 .about {
+	height:100%;
+}
+
+.sponsors {
+	height:100%;
+}
+
+.contacts {
 	height:100%;
 }
