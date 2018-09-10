@@ -121,32 +121,32 @@ li a:hover {
 	padding:50px;
 	text-align: center;
 	height:100%;
-	margin
 }
 
-h1 {
-
-}
 .about {
 	height:100%;
+	margin-top:100px;
 	margin-left: 2%;
 	margin-right:2%;
 }
 
 .sponsors {
 	height:100%;
+	margin-top:100px;
 	margin-left: 2%;
 	margin-right:2%;
 }
 
 .contacts {
 	height:100%;
+	margin-top:100px;
 	margin-left: 2%;
 	margin-right:2%;
 }
 
 .questions {
 	height:100%;
+	margin-top:100px;
 	margin-left: 2%;
 	margin-right:2%;
 }
