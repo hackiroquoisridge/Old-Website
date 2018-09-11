@@ -128,6 +128,8 @@ li a:hover {
 	height:100%;
 	padding-bottom:85px;
 	margin-bottom: 80px;
+	background-image: url(../img/background.jpg);
+	background-size:cover;
 }
 
 .about {
