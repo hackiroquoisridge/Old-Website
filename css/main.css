@@ -132,6 +132,8 @@ li a:hover {
 .about {
 	color:white;
 	background-color:black;
+	padding-top:80px;
+	margin-top:-80px;
 }
 
 .sponsors {
@@ -155,7 +157,6 @@ li a:hover {
 }
 
 .content {
-	padding-top:10px;
 	padding-bottom:85px;
 	margin-left:2%;
 	margin-right:2%;
