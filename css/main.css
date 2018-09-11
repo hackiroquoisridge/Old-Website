@@ -103,9 +103,10 @@ li a:hover {
 }
 
 .button1:hover {
-	background-color: black;
+	background-color: red;
     color: white;
-    border: 2px solid white;
+	border:0px;
+    border-left: 2px solid white;
 }
 
 .button1 {
@@ -124,7 +125,7 @@ li a:hover {
 	padding-top:50px;
 	text-align: center;
 	height:100%;
-	background-image: url(../img/background.jpg);
+	background-image: url(../img/background1.png);
 	background-size:cover;
 }
 
