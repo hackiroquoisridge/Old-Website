@@ -191,9 +191,8 @@ h3 {
 }
 
 .button-position {
-	height:100%;
 	position:relative;
-	top:87%;
+	top:10%;
 	margin-top:-18px;
 }
 
