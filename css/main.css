@@ -92,7 +92,7 @@ li a:hover {
 }
 .button {
 	background-color: white;
-    border-left: 3px solid red;
+    border-left: 4px solid red;
 	border-bottom: none;
 	border-top:none;
 	border-right:none;
@@ -112,7 +112,7 @@ li a:hover {
 	background-color: red;
     color: white;
 	border:0px;
-    border-left: 3px solid white;
+    border-left: 4px solid white;
 }
 
 .active {
