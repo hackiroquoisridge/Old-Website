@@ -209,5 +209,6 @@ h3 {
 }
 
 .logobutton:hover {
-	
+	background-color: white;
+	color:black;
 }
