@@ -7,6 +7,7 @@ head {
 }
 
 .wrapper {
+	width:100%;
 	margin-top:0;
 	margin-bottom: 5%;
 	font-family: 'Raleway', sans-serif;
@@ -16,6 +17,7 @@ head {
 body {
 	margin:0;
 	background-color: white;
+	width:100%;
 }
 
 footer { 
@@ -138,18 +140,15 @@ li a:hover {
 }
 
 .sponsors {
-	margin-left: 2%;
-	margin-right:2%;
+
 }
 
 .contacts {
-	margin-left: 2%;
-	margin-right:2%;
+
 }
 
 .questions {
-	margin-left: 2%;
-	margin-right:2%;
+
 }
 
 .gallery {
