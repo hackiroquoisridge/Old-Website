@@ -143,14 +143,16 @@ li a:hover {
 
 .sponsors {
 	color:white;
+	padding-top:80px;
 }
 
 .contacts {
-
+	padding-top:80px;
 }
 
 .questions {
 	text-align: right;
+	padding-top:80px;
 }
 
 .gallery {
@@ -158,7 +160,7 @@ li a:hover {
 	background-color: black;
 	margin:0;
 	padding:0;
-	
+	padding-bottom:10px;
 }
 
 .content {

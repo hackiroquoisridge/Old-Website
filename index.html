@@ -31,20 +31,22 @@ $(document).ready(function(){
 	  }
 
 	  else{
-		  $(".nav").css("background-color" , "black");  	
+		  $(".nav").css("background-color" , "black");
 	  }
   })
 })
+</script>
 
+<script>
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 300) {
-	    $(".nav").css("color" , "black");
+	    $(".li a").css("color" , "black");
 	  }
 
 	  else{
-		  $(".nav").css("color" , "white");  	
+		  $(".li a").css("color" , "white");  	
 	  }
   })
 })
@@ -67,7 +69,9 @@ $(document).ready(function(){
 		
 		<div id="about" class="about"> 
 		<div class="content1">
-		<h1>About Us</h1>
+		
+		<h1 style="text-align: center;padding-top:80px;">About Us</h1>
+		<hr>
 		<h3 style="text-decoration:none;">HackIR (RidgeHacks) is an annual hackathon hosted by Iroquois Ridge High School. A hackathon is a live-event where participants, "hackers", spend the course of 12 hours creating, developing, designing, and pitching a software or hardware project they build from scratch. HackIR has been apart of the MLH Local Hack Day for 2 years and this year is no exception! Local Hack Day is a global hackathon uniting thousands of students across the world. Participants across 100+ distributed campuses are able to connect with their local communities and other hackers through digital workshops, social media, and a global livestream. </h3>
 		<p>&nbsp;&nbsp;</p>
 		</div>
@@ -80,6 +84,7 @@ $(document).ready(function(){
 		<div id="questions" class="questions">
 		<div class="content">
 		<h1>F.A.Q.</h1>
+		<hr>
 		<h3>Is the hackathon free?</h3>
 		Yes, most hackathons are free! Including ours!
 		<h3>Is there going be food?</h3>
@@ -97,6 +102,7 @@ $(document).ready(function(){
 		<div id="sponsors" class="sponsors">
 		<div class="content1">
 		<h1>Sponsors</h1>
+		<hr>
 		To Be Determined! 
 		Our executive team is working hard to get those sponsors! Stay tuned for some awsome sponsors!
 		<p><a href="https://google.ca">Become a sponsor!</a></p>
@@ -107,6 +113,7 @@ $(document).ready(function(){
 		<div id="contacts" class="contacts">
 		<div class="content">
 		<h1>Contact Us!</h1>
+		<hr>
 		If you have any questions or concerns, email us at <strong>hackiroquoisridge@gmail.com</strong>! We will try to get back at you ASAP!
 		<p>FOLLOW US on IG!      <a href="https://www.instagram.com/irhshackathon/" style="padding-left:10px;"><img src="img/ig.webp" height="40"></a></p>
 		<p>SHOW YOU'RE INTERESTRED on FB!      <a href="https://www.facebook.com/events/230825571061109/" style="padding-left:10px;"><img src="img/fb.jpg" height="40"></a></p>
