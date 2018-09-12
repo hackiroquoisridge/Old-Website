@@ -20,6 +20,36 @@
 				
 			</ul>
 		</div>
+		
+<script>
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".nav").css("background-color" , "white");
+	  }
+
+	  else{
+		  $(".nav").css("background-color" , "black");  	
+	  }
+  })
+})
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".nav").css("color" , "black");
+	  }
+
+	  else{
+		  $(".nav").css("color" , "white");  	
+	  }
+  })
+})
+</script>
+
+
 </head>	
 
 
