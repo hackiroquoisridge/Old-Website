@@ -11,7 +11,6 @@ head {
 	margin-top:0;
 	margin-bottom: 5%;
 	font-family: 'Raleway', sans-serif;
-	
 }
 
 body {
@@ -137,6 +136,7 @@ li a:hover {
 
 .about {
 	color:white;
+	padding-bottom: 0;
 }
 
 .sponsors {
@@ -153,6 +153,10 @@ li a:hover {
 
 .gallery {
 	width:100%;
+	background-color: black;
+	margin:0;
+	padding:0;
+	
 }
 
 .content {
@@ -165,10 +169,11 @@ li a:hover {
 
 .content1 {
 	padding-top:10px;
-	padding-bottom:85px;
 	background-color: black;
 	padding-left:2%;
 	padding-right:2%;
+	margin:0;
+	padding-bottom:0;
 }
 
 
