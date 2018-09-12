@@ -158,8 +158,6 @@ li a:hover {
 .content {
 	padding-top:10px;
 	padding-bottom:85px;
-	padding-left:2%;
-	padding-right:2%;
 	background-color: white;
 	width:100%;
 }
@@ -167,8 +165,6 @@ li a:hover {
 .content1 {
 	padding-top:10px;
 	padding-bottom:85px;
-	padding-left:2%;
-	padding-right:2%;
 	background-color: black;
 	width:100%;
 }
