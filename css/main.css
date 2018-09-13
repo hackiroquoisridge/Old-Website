@@ -51,6 +51,11 @@ footer {
 	box-shadow: 0 0 10px 2px black;
 }
 
+.nav1 {
+	
+}
+
+
 li {
 	color:black;
 	display:inline-flex;
@@ -223,4 +228,21 @@ h3 {
 	.nav {
 		display:none;
 	}
+}
+
+.dropdown {
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dd-content {
+	display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 120px;
+    overflow: auto;
+    box-shadow: 0px 2px 10px 0px black;
+    right: 0;
+    z-index: 1;
 }
