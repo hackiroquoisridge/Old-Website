@@ -14,15 +14,35 @@
 		<!--- Mobile Menu --->
 		<div class="nav1">
 				<a href="./index.html" class="logobutton">HackIR</a>
-			
-			<div class="dropdown">
+				
+				
+		<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("dropdown").classList.toggle("showmbmenu");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("dropdown");
+      if (myDropdown.classList.contains('showmbmenu')) {
+        myDropdown.classList.remove('showmbmenu');
+      }
+  }
+}
+</script>
+	 		
+		  <button class="dropbtn" onclick="myFunction()">&#9868</button>
+		  <div class="dropdown">
 			<div class="dd-content">
-				<a href="#home" class="active">Home</a></li>
-				<a href="#about" class>About Us</a></li>
-				<a href="#questions" class>F.A.Q.</a></li>
-				<a href="#sponsors" class>Sponsors</a></li>
-				<a href="#contacts" class>Contact</a></li>
-				<a href="mailto:hackiroquoisridge@hdsb.ca" class=>Support Us!</a></li>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about" class>About Us</a></li>
+				<li><a href="#questions" class>F.A.Q.</a></li>
+				<li><a href="#sponsors" class>Sponsors</a></li>
+				<li><a href="#contacts" class>Contact</a></li>
+				<li><a href="mailto:hackiroquoisridge@hdsb.ca" class=>Support Us!</a></li>
 			</div>
 			</div>	
 		</div>

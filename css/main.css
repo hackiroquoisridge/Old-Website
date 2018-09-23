@@ -59,7 +59,7 @@ footer {
 }
 
 .nav1 {
-	
+	background:black;
 }
 
 
@@ -209,13 +209,15 @@ h3 {
 
 .logobutton {
 	color:white;
+	height:21px;
+	background:black;
 	text-decoration: none;
 	padding-top:25px;
 	padding-bottom:25px;
 	padding-right:18px;
 	padding-left:18px;
 	float:left;
-	font-family: ;
+	margin:0;
 }
 
 .logobutton:hover {
@@ -262,8 +264,28 @@ h3 {
 
 .logoimg {
 	height: auto;
-    width: 45%;
+    width: 43%;
     position: relative;
     top: 17vh;
     margin-bottom: -20%;
+}
+
+.showmbmenu {
+	display: block;
+}
+
+.dropbtn {
+    color:white;
+	height:41px;
+	font-size: 20px;
+	background: black;
+	text-decoration: none;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:18px;
+	padding-left:18px;
+	float:left;
+	border: none;
+    outline: none;
+	margin:0;
 }
