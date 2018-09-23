@@ -227,11 +227,19 @@ h3 {
 	.nav1 {
 		display:none;
 	}
+	
 }
 
 @media only screen and (max-width: 480px) {
 	.nav {
 		display:none;
+	}
+	.logoimg {
+	height: 40%;
+    width: auto;
+    position: relative;
+    top: 17vh;
+    margin-bottom: -20%;
 	}
 }
 
