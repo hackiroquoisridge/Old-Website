@@ -154,6 +154,7 @@ li a:hover {
 	padding-bottom: 0;
 	background: black;
 	color: white;
+	height:100%;
 }
 
 .sponsors {
@@ -166,7 +167,7 @@ li a:hover {
 }
 
 .questions {
-	text-align: right;
+	text-align: center;
 	padding-top:80px;
 }
 
