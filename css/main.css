@@ -81,6 +81,7 @@ li a {
 	padding-left:10px;
 	float:right;
 	width:100px;
+	margin:0;
 }
 
 li a:hover {
