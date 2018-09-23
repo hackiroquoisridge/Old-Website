@@ -152,7 +152,8 @@ li a:hover {
 
 .about {
 	padding-bottom: 0;
-	background: white;
+	background: black;
+	color: white;
 }
 
 .sponsors {
