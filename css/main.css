@@ -311,5 +311,14 @@ h3 {
 	text-decoration: none;
 	background:white;
 	color:black;
-	
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:5px;
+}
+
+.sponsorbtn:hover {
+	color:white;
+	background:black;
 }
